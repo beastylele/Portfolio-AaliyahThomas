@@ -42,7 +42,6 @@ li > a:hover {
 #welcome-section {
   height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #ffedf0;
@@ -94,10 +93,11 @@ h1 {
   text-decoration: none;
   background-color: #ff95a7;
   width: 100%;
-  padding: 20px 0 10px 0;
+  padding: 10px 0 10px 0;
   height: 15%;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
+  align-self: center;
 }
 
 .project-title {
@@ -153,6 +153,22 @@ i {
   padding: 5px;
 }
 
+#photo_me {
+  width: 30%;
+}
+
+#about_me {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-right: 10px;
+}
+
+#about_me > p {
+  font-size: 1.5rem;
+}
+
+
 @media (max-width: 767px) {
   #navbar {
     justify-content: center;
@@ -175,18 +191,39 @@ i {
 
   #welcome-section {
     width: 100vw;
+    flex-direction: column;
   }
 
   .project {
     width: 360px;
-  }
-
-  
+  }  
 
   #contact-links {
     flex-direction: column;
     gap: 40px;
   }
+
+  #about_me > p {
+    font-size: 1.2rem;
+  }
+
+  #about_me > h1 {
+    font-size: 2rem;
+  }
+
+  #about_me {
+    width: 90vw;
+  }
+
+  #photo_me {
+    margin-bottom: -30px;
+    width: 50%;
+    margin-top: -30px;
+  }
+
+  
+
+ 
 }
 
 @media (max-width: 480px) {
