@@ -7,6 +7,11 @@ body {
   font-family: "Roboto Slab", serif;
 }
 
+h4 {
+  padding-bottom: 30px;
+  
+}
+
 #navbar {
   position: fixed;
   background-color: #ff95a7;
