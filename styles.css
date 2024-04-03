@@ -8,7 +8,8 @@ body {
 }
 
 h4 {
-  padding-bottom: 30px;
+  font-style: italic;
+  padding-bottom: 45px;
   
 }
 
@@ -108,7 +109,17 @@ h1 {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   align-self: center;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
+
+.title-prog:hover {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 3px 5px;
+  border-radius: 10px;
+  
+}
+
 
 .project-title {
   font-size: 1.5rem;
